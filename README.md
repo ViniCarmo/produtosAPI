@@ -1,51 +1,62 @@
-🛍️ Produtos API
+# 🛍️ Produtos API
+
 API REST simples para gerenciar produtos usando Java + Spring Boot 🚀
 
-🎯 Funcionalidades
-➕ Criar produto
+---
 
-🔍 Buscar produto por ID
+## 🎯 Funcionalidades
 
-✏️ Atualizar produto
+- ➕ Criar produto  
+- 🔍 Buscar produto por ID  
+- ✏️ Atualizar produto  
+- 🗑️ Deletar produto  
+- 🔎 Buscar produtos por nome
 
-🗑️ Deletar produto
+---
 
-🔎 Buscar produtos por nome
+## 🛠️ Tecnologias
 
-🛠️ Tecnologias
-☕ Java 17+
+- ☕ Java 17+  
+- 🌱 Spring Boot  
+- 📦 Spring Data JPA
 
-🌱 Spring Boot
+---
 
-📦 Spring Data JPA
+## 📚 Endpoints
 
-📚 Endpoints
-Método	Endpoint	Descrição
-POST	/produtos	Criar um novo produto
-GET	/produtos/{id}	Obter produto por ID
-PUT	/produtos/{id}	Atualizar produto por ID
-DELETE	/produtos/{id}	Deletar produto por ID
-GET	/produtos?nome=	Buscar produtos pelo nome
+| Método | Endpoint           | Descrição                  |
+|--------|--------------------|----------------------------|
+| POST   | `/produtos`        | Criar um novo produto      |
+| GET    | `/produtos/{id}`   | Obter produto por ID       |
+| PUT    | `/produtos/{id}`   | Atualizar produto por ID   |
+| DELETE | `/produtos/{id}`   | Deletar produto por ID     |
+| GET    | `/produtos?nome=`  | Buscar produtos pelo nome  |
 
-📦 Modelo Produto
-json
-Copiar
-Editar
+---
+
+## 📦 Modelo Produto
+
+```json
 {
   "id": "string",
   "nome": "string",
   "descricao": "string",
   "preco": 0.0
 }
-🚀 Como rodar
-Clone o repositório
+```
 
-Importe no IDE (IntelliJ, Eclipse)
+---
 
-Execute a classe principal com @SpringBootApplication
+## 🚀 Como rodar
 
-Teste os endpoints com Postman, Insomnia ou outro cliente REST
+1. Clone o repositório  
+2. Importe no IDE (IntelliJ, Eclipse)  
+3. Execute a classe principal com `@SpringBootApplication`  
+4. Teste os endpoints com Postman, Insomnia ou outro cliente REST  
 
-👨‍💻 Autor
-Vinicius Carmo
-LinkedIn
+---
+
+## 👨‍💻 Autor
+
+Vinicius Carmo  
+[LinkedIn](https://www.linkedin.com/in/seu-usuario)
